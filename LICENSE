@@ -185,17 +185,83 @@
       file or class name and description of purpose be included on the
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
-
-   Copyright [yyyy] [name of copyright owner]
-
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
+      
+      
+      
+      
+LICENLICENSE
+APACHE LICENSE 2.0 (January 2004)
++   Copyright 2017, Green-09(LEEYEONGSEOB, SONGHYUNIL, KIMSUNGUK, PARKYEJIN, JUNGCHONGHO)
++
++   Licensed under the Apache License, Version 2.0 (the "License");
++   you may not use this file except in compliance with the License.
++   You may obtain a copy of the License at
++
++       http://www.apache.org/licenses/LICENSE-2.0
++
++   Unless required by applicable law or agreed to in writing, software
++   distributed under the License is distributed on an "AS IS" BASIS,
++   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
++   See the License for the specific language governing permissions and
++   limitations under the License.
++
++   09, 11, 2017
+라이선스
+아파치 라이선스 2.0 (2004년 1월)
++   저작권 2017, Green-09(이영섭, 송현일, 김선국, 박예진, 정충호)
++   
++   Apache 2.0 라이선스를 채택하였습니다.
++   이 파일은 라이선스의 규정하에 사용이 가능합니다.
++   아래 사이트 주소에서 라이선스 내용을 확인할 수 있습니다.
++
++   http://www.apache.org/licenses/LICENSE-2.0
++
++   관련법에 의해 요구받거나 서면으로 동의하지 않는 한 이 라이선스를 채택한 소프트웨어는 
++   명시적이든 묵시적이든 아무 조건이나 보증이 없는 “있는 그래도”의 상태로 배포됩니다.
++   원하는 언어로 쓰여있는 허용사항 및 제한사항을 확인하시기 바랍니다.
++
++
++    2017, 11, 09
+************************************************************************************************************
+Dependence(MIT)
+Arello-Mobile / Moxy (https://github.com/Arello-Mobile/Moxy):
+A library that help to use MVP pattern when you do the Android Application.
+Android 애플리케이션을 실행할 때 MVP 패턴을 사용하는 데 도움이되는 라이브러리.
+Moxy’s License(MIT)
+The MIT License (MIT)
+Copyright (c) 2016 Arello Mobile
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+************************************************************************************************************
+Dependencies(Apache 2.0)
+https://github.com/google/dagger :
+A fast dependency injector for Android and Java.
+Android 및 Java 용 빠른 종속성 인젝터.
+https://github.com/JakeWharton/butterknife :
+Bind Android views and callbacks to fields and methods.
+Android보기 및 콜백을 필드 및 메소드에 바인딩함.
+https://github.com/square/picasso :
+A powerful image downloading and caching library for Android.
+Android 용 강력한 이미지 다운로드 및 캐싱 라이브러리.
+https://github.com/ReactiveX/RxJava :
+RxJava is a Java VM implementation of Reactive Extensions.
+RxJava는 Reactive Extensions의 Java VM 구현.
+https://github.com/evant/gradle-retrolambda :
+A Gradle plugin for getting Java lambda support in Java 6, 7 and Android.
+Java 6, 7 및 Android에서 Java lambda 지원을 받기위한 Gradle 플러그인.
+https://github.com/tbruyelle/RxPermissions :
+Android runtime permissions powered by RxJava.
+RxJava가 제공하는 Android 런타임 권한.
