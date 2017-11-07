@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".ui.activities.HomeActivity">
+
+    <TextView
+        android:id="@+id/applicationName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:text="Green-09"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/gallery_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/applicationName"
+        android:layout_alignRight="@+id/applicationName"
+        android:layout_below="@+id/applicationName"
+        android:layout_marginTop="59dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:drawableTop="@drawable/hand"
+        android:text="@string/gallery"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/gallery_button"
+        android:layout_alignBottom="@+id/gallery_button"
+        android:layout_alignLeft="@+id/applicationName"
+        android:layout_alignStart="@+id/applicationName"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:drawableTop="@drawable/hand"
+        android:text="@string/camera"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/applicationIcon"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_alignBottom="@+id/applicationName"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="11dp"
+        android:src="@drawable/came" />
+
+</RelativeLayout>
